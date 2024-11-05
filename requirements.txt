@@ -1,0 +1,10 @@
+bitarray>=1.2.2
+Pillow==8.3.2
+gunicorn==20.0.4
+requests==2.23.0
+utils==1.0.1
+whitenoise==5.0.1
+django-widget-tweaks
+django_crontab
+django-storages==1.11.1
+six
