@@ -24,6 +24,9 @@ from django.conf.urls.static import static
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.homePage),
+    path('contact/', views.contact),
+    path('about/', views.about),
+    path('properties/', views.properties),
 ]
 
 if settings.DEBUG:
