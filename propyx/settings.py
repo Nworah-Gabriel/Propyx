@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ["propyx.onrender.com", "127.0.0.1"]
 
 INSTALLED_APPS = [
     'core',
+    'web3',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',

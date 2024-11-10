@@ -27,6 +27,8 @@ urlpatterns = [
     path('contact/', views.contact),
     path('about/', views.about),
     path('properties/', views.properties),
+    path('properties-view/<path:_image_url>/<int:price>/', views.propertyView, name='property_view'),
+    # path('properties-view/<str:token_url>/<str:price>/', views.propertyView),
 ]
 
 if settings.DEBUG:
